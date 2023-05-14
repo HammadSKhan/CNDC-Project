@@ -1,0 +1,327 @@
+en
+conf t
+service dhcp
+ip dhcp pool
+
+ip dhcp pool CS-LAB
+dns-server 1.1.1.1
+default-router 201.229.2.1
+network 201.229.2.0 255.255.255.192
+
+ip dhcp pool LAB-3
+dns-server 1.1.1.1
+default-router 201.229.2.65
+network 201.229.2.64 255.255.255.192
+
+ip dhcp pool LAB-4
+dns-server 1.1.1.1
+default-router 201.229.2.129
+network 201.229.2.128 255.255.255.192
+
+ip dhcp pool LAB-5
+dns-server 1.1.1.1
+default-router 201.229.2.193
+network 201.229.2.192 255.255.255.192
+
+ip dhcp pool LAB-6
+dns-server 1.1.1.1
+default-router 201.229.3.1
+network 201.229.3.0 255.255.255.192
+
+ip dhcp pool SMART-LAB
+dns-server 1.1.1.1
+default-router 201.229.3.65
+network 201.229.3.64 255.255.255.192
+
+ip dhcp pool FACILTY-99
+dns-server 1.1.1.1
+default-router 201.229.3.129
+network 201.229.3.128 255.255.255.192
+
+
+ip dhcp pool FACULTY-100
+dns-server 1.1.1.1
+default-router 201.229.3.193
+network 201.229.3.192 255.255.255.224
+
+ip dhcp pool CLASSES-100
+dns-server 1.1.1.1
+default-router 201.229.3.225
+network 201.229.3.224 255.255.255.224
+
+ip dhcp pool CLASSES-99
+dns-server 1.1.1.1
+default-router 201.229.6.1
+network 201.229.6.0 255.255.255.224
+
+ip dhcp pool EXAM-99
+dns-server 1.1.1.1
+default-router 201.229.6.33
+network 201.229.6.32 255.255.255.224
+
+ip dhcp pool FACULTY-154
+dns-server 1.1.1.1
+default-router 201.229.6.65
+network 201.229.6.64 255.255.255.224
+
+ip dhcp pool MECH-154
+dns-server 1.1.1.1
+default-router 201.229.6.97
+network 201.229.6.96 255.255.255.240
+
+ip dhcp pool IT-100
+dns-server 1.1.1.1
+default-router 201.229.6.129
+network 201.229.6.128 255.255.255.240
+
+ip dhcp pool GAMING-LAB-100
+dns-server 1.1.1.1
+default-router 201.229.6.145
+network 201.229.6.144 255.255.255.240
+
+ip dhcp pool ACADEMIC-100
+dns-server 1.1.1.1
+default-router 201.229.6.161
+network 201.229.6.160 255.255.255.240
+
+ip dhcp pool ACADEMIC-99
+dns-server 1.1.1.1
+default-router 201.229.6.177
+network 201.229.6.176 255.255.255.240
+
+ip dhcp pool CLASSES-154
+dns-server 1.1.1.1
+default-router 201.229.6.193
+network 201.229.6.192 255.255.255.240
+
+ip dhcp pool ADMISSION-153
+dns-server 1.1.1.1
+default-router 201.229.6.209
+network 201.229.6.208 255.255.255.240
+
+ip dhcp pool CLASSES-153
+dns-server 1.1.1.1
+default-router 201.229.6.225
+network 201.229.6.224 255.255.255.240
+
+ip dhcp pool LIBRARY-79
+dns-server 1.1.1.1
+default-router 201.229.6.241
+network 201.229.6.240 255.255.255.240
+
+ip dhcp pool HR-79
+dns-server 1.1.1.1
+default-router 201.242.1.1
+network 201.242.1.0 255.255.255.240
+
+ip dhcp pool ADMIN-79
+dns-server 1.1.1.1
+default-router 201.242.1.17
+network 201.242.1.16 255.255.255.240
+
+ip dhcp pool FINANCE-79
+dns-server 1.1.1.1
+default-router 201.242.1.33
+network 201.242.1.32 255.255.255.240
+
+ip dhcp pool FACULTY-MEDIA
+dns-server 1.1.1.1
+default-router 201.242.1.49
+network 201.242.1.48 255.255.255.240
+
+ip dhcp pool ADMIN-100
+dns-server 1.1.1.1
+default-router 201.242.1.65
+network 201.242.1.64 255.255.255.248
+
+ip dhcp pool IT-99
+dns-server 1.1.1.1
+default-router 201.242.1.73
+network 201.242.1.72 255.255.255.248
+
+ip dhcp pool SERVER-99
+dns-server 1.1.1.1
+default-router 201.242.1.81
+network 201.242.1.80 255.255.255.248
+
+ip dhcp pool ADMIN-99
+dns-server 1.1.1.1
+default-router 201.242.1.89
+network 201.242.1.88 255.255.255.248
+
+ip dhcp pool PROCUREMENT-79
+dns-server 1.1.1.1
+default-router 201.242.1.97
+network 201.242.1.96 255.255.255.248
+
+ip dhcp pool EDC-79
+dns-server 1.1.1.1
+default-router 201.242.1.105
+network 201.242.1.104 255.255.255.248
+
+ip dhcp pool CLASSES-MEDIA
+dns-server 1.1.1.1
+default-router 201.242.1.113
+network 201.242.1.112 255.255.255.248
+
+ip dhcp pool ACADEMIC-MEDIA
+dns-server 1.1.1.1
+default-router 201.242.1.121
+network 201.242.1.120 255.255.255.248
+
+ip dhcp pool ACADEMIC-154
+dns-server 1.1.1.1
+default-router 201.242.1.129
+network 201.242.1.128 255.255.255.248
+
+ip dhcp pool ADMIN-154
+dns-server 1.1.1.1
+default-router 201.242.1.137
+network 201.242.1.136 255.255.255.248
+
+ip dhcp pool ACADEMIC-153
+dns-server 1.1.1.1
+default-router 201.242.1.145
+network 201.242.1.144 255.255.255.248
+
+
+ip dhcp excluded-address  201.229.2.1
+
+ip dhcp excluded-address  201.229.2.65
+
+ip dhcp excluded-address  201.229.2.129
+
+
+
+ip dhcp excluded-address  201.229.2.193
+
+
+
+ip dhcp excluded-address  201.229.3.1
+
+
+
+ip dhcp excluded-address  201.229.3.65
+
+
+
+ip dhcp excluded-address  201.229.3.129
+
+
+
+
+ip dhcp excluded-address  201.229.3.193
+
+
+
+ip dhcp excluded-address  201.229.3.225
+
+
+
+ip dhcp excluded-address  201.229.6.1
+
+
+
+ip dhcp excluded-address  201.229.6.33
+
+
+
+ip dhcp excluded-address  201.229.6.65
+
+
+
+ip dhcp excluded-address  201.229.6.97
+
+
+
+ip dhcp excluded-address  201.229.6.129
+
+
+
+ip dhcp excluded-address  201.229.6.145
+
+
+
+ip dhcp excluded-address  201.229.6.161
+
+
+
+ip dhcp excluded-address  201.229.6.177
+
+
+
+ip dhcp excluded-address  201.229.6.193
+
+
+
+ip dhcp excluded-address  201.229.6.209
+
+
+
+ip dhcp excluded-address  201.229.6.225
+
+
+
+ip dhcp excluded-address  201.229.6.241
+
+
+
+ip dhcp excluded-address  201.242.1.1
+
+
+
+ip dhcp excluded-address  201.242.1.17
+
+
+
+ip dhcp excluded-address  201.242.1.33
+
+
+
+ip dhcp excluded-address  201.242.1.49
+
+
+
+ip dhcp excluded-address  201.242.1.65
+
+
+
+ip dhcp excluded-address  201.242.1.73
+
+
+
+ip dhcp excluded-address  201.242.1.81
+
+
+
+ip dhcp excluded-address  201.242.1.89
+
+
+
+ip dhcp excluded-address  201.242.1.97
+
+
+
+ip dhcp excluded-address  201.242.1.105
+
+
+
+ip dhcp excluded-address  201.242.1.113
+
+
+
+ip dhcp excluded-address  201.242.1.121
+
+
+
+ip dhcp excluded-address  201.242.1.129
+
+
+
+ip dhcp excluded-address  201.242.1.137
+
+
+
+ip dhcp excluded-address  201.242.1.145
+
+
