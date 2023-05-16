@@ -139,11 +139,6 @@ dns-server 1.1.1.1
 default-router 201.242.1.73
 network 201.242.1.72 255.255.255.248
 
-ip dhcp pool SERVER-99
-dns-server 1.1.1.1
-default-router 201.242.1.81
-network 201.242.1.80 255.255.255.248
-
 ip dhcp pool ADMIN-99
 dns-server 1.1.1.1
 default-router 201.242.1.89
