@@ -67,7 +67,7 @@ network 201.229.6.64 255.255.255.224
 ip dhcp pool MECH-154
 dns-server 1.1.1.1
 default-router 201.229.6.97
-network 201.229.6.96 255.255.255.240
+network 201.229.6.96 255.255.255.224
 
 ip dhcp pool IT-100
 dns-server 1.1.1.1
