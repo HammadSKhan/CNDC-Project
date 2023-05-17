@@ -1,0 +1,19 @@
+
+
+access-list 100 remark Zabdesk Policy
+access-list 100 permit ip 201.229.2.0 0.0.0.63 host 201.242.1.85
+access-list 100 permit ip 201.229.2.64 0.0.0.63 host 201.242.1.85
+access-list 100 permit ip 201.229.2.128 0.0.0.63 host 201.242.1.85
+access-list 100 permit ip 201.229.2.192 0.0.0.63 host 201.242.1.85
+
+access-list 100 permit ip 201.229.3.0 0.0.0.63 host 201.242.1.85
+access-list 100 permit ip 201.229.3.64 0.0.0.63 host 201.242.1.85
+access-list 100 permit ip 201.229.6.144 0.0.0.15 host 201.242.1.85
+
+access-list 100 permit ip 201.229.3.128 0.0.0.63 host 201.242.1.85
+access-list 100 permit ip 201.229.3.192 0.0.0.31 host 201.242.1.85
+access-list 100 permit ip 201.229.6.64 0.0.0.31 host 201.242.1.85
+access-list 100 permit ip 201.229.6.96 0.0.0.31 host 201.242.1.85
+access-list 100 permit ip 201.242.1.48 0.0.0.15 host 201.242.1.85
+access-list 100 deny ip any host 201.242.1.85
+do write

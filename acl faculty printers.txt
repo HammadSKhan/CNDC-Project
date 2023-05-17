@@ -1,0 +1,113 @@
+
+access-list 101 remark Faculty 100C Printers Policy
+
+access-list 101 permit ip 201.229.3.192 0.0.0.31 host 201.229.3.194
+access-list 101 permit ip 201.229.3.192 0.0.0.31 host 201.229.3.195
+access-list 101 permit ip 201.229.3.192 0.0.0.31 host 201.229.3.196
+access-list 101 permit ip 201.229.3.192 0.0.0.31 host 201.229.3.197
+
+access-list 101 permit ip 201.229.3.128 0.0.0.63 host 201.229.3.194
+access-list 101 permit ip 201.229.3.128 0.0.0.63 host 201.229.3.195
+access-list 101 permit ip 201.229.3.128 0.0.0.63 host 201.229.3.196
+access-list 101 permit ip 201.229.3.128 0.0.0.63 host 201.229.3.197
+
+access-list 101 permit ip 201.229.6.64 0.0.0.31 host 201.229.3.194
+access-list 101 permit ip 201.229.6.64 0.0.0.31 host 201.229.3.195
+access-list 101 permit ip 201.229.6.64 0.0.0.31 host 201.229.3.196
+access-list 101 permit ip 201.229.6.64 0.0.0.31 host 201.229.3.197
+
+access-list 101 permit ip 201.242.1.48 0.0.0.15 host 201.229.3.194
+access-list 101 permit ip 201.242.1.48 0.0.0.15 host 201.229.3.195
+access-list 101 permit ip 201.242.1.48 0.0.0.15 host 201.229.3.196
+access-list 101 permit ip 201.242.1.48 0.0.0.15 host 201.229.3.197
+
+
+access-list 101 deny ip any host 201.229.3.194
+access-list 101 deny ip any host 201.229.3.195
+access-list 101 deny ip any host 201.229.3.196
+access-list 101 deny ip any host 201.229.3.197
+do write
+
+
+access-list 102 remark Faculty 99C Printers Policy
+
+access-list 102 permit ip 201.229.3.192 0.0.0.31 host 201.229.3.130
+access-list 102 permit ip 201.229.3.192 0.0.0.31 host 201.229.3.131
+access-list 102 permit ip 201.229.3.192 0.0.0.31 host 201.229.3.132
+access-list 102 permit ip 201.229.3.192 0.0.0.31 host 201.229.3.133
+access-list 102 permit ip 201.229.3.192 0.0.0.31 host 201.229.3.134
+access-list 102 permit ip 201.229.3.192 0.0.0.31 host 201.229.3.135
+
+access-list 102 permit ip 201.229.3.128 0.0.0.63 host 201.229.3.130
+access-list 102 permit ip 201.229.3.128 0.0.0.63 host 201.229.3.131
+access-list 102 permit ip 201.229.3.128 0.0.0.63 host 201.229.3.132
+access-list 102 permit ip 201.229.3.128 0.0.0.63 host 201.229.3.133
+access-list 102 permit ip 201.229.3.128 0.0.0.63 host 201.229.3.134
+access-list 102 permit ip 201.229.3.128 0.0.0.63 host 201.229.3.135
+
+access-list 102 permit ip 201.229.6.64 0.0.0.31 host 201.229.3.130
+access-list 102 permit ip 201.229.6.64 0.0.0.31 host 201.229.3.131
+access-list 102 permit ip 201.229.6.64 0.0.0.31 host 201.229.3.132
+access-list 102 permit ip 201.229.6.64 0.0.0.31 host 201.229.3.133
+access-list 102 permit ip 201.229.6.64 0.0.0.31 host 201.229.3.134
+access-list 102 permit ip 201.229.6.64 0.0.0.31 host 201.229.3.135
+
+access-list 102 permit ip 201.242.1.48 0.0.0.15 host 201.229.3.130
+access-list 102 permit ip 201.242.1.48 0.0.0.15 host 201.229.3.131
+access-list 102 permit ip 201.242.1.48 0.0.0.15 host 201.229.3.132
+access-list 102 permit ip 201.242.1.48 0.0.0.15 host 201.229.3.133
+access-list 102 permit ip 201.242.1.48 0.0.0.15 host 201.229.3.134
+access-list 102 permit ip 201.242.1.48 0.0.0.15 host 201.229.3.135
+
+access-list 102 deny ip any host 201.229.3.130
+access-list 102 deny ip any host 201.229.3.131
+access-list 102 deny ip any host 201.229.3.132
+access-list 102 deny ip any host 201.229.3.133
+access-list 102 deny ip any host 201.229.3.134
+access-list 102 deny ip any host 201.229.3.135
+do write
+
+
+access-list 103 remark Faculty 154C Printers Policy
+
+access-list 103 permit ip 201.229.3.192 0.0.0.31 host 201.229.6.66
+access-list 103 permit ip 201.229.3.192 0.0.0.31 host 201.229.6.67
+
+access-list 103 permit ip 201.229.3.128 0.0.0.63 host 201.229.6.66
+access-list 103 permit ip 201.229.3.128 0.0.0.63 host 201.229.6.67
+
+access-list 103 permit ip 201.229.6.64 0.0.0.31 host 201.229.6.66
+access-list 103 permit ip 201.229.6.64 0.0.0.31 host 201.229.6.67
+
+access-list 103 permit ip 201.242.1.48 0.0.0.15 host 201.229.6.66
+access-list 103 permit ip 201.242.1.48 0.0.0.15 host 201.229.6.67
+
+access-list 103 deny ip any host 201.229.6.66
+access-list 103 deny ip any host 201.229.6.67
+do write
+
+
+
+access-list 104 remark Faculty Media&ResearchC Printers Policy
+
+access-list 104 permit ip 201.229.3.192 0.0.0.31 host 201.229.1.50
+access-list 104 permit ip 201.229.3.192 0.0.0.31 host 201.242.1.51
+access-list 104 permit ip 201.229.3.192 0.0.0.31 host 201.242.1.52
+
+access-list 104 permit ip 201.229.3.128 0.0.0.63 host 201.242.1.50
+access-list 104 permit ip 201.229.3.128 0.0.0.63 host 201.242.1.51
+access-list 104 permit ip 201.229.3.128 0.0.0.63 host 201.242.1.52
+
+access-list 104 permit ip 201.229.6.64 0.0.0.31 host 201.242.1.50
+access-list 104 permit ip 201.229.6.64 0.0.0.31 host 201.242.1.51
+access-list 104 permit ip 201.229.6.64 0.0.0.31 host 201.242.1.52
+
+access-list 104 permit ip 201.242.1.48 0.0.0.15 host 201.242.1.50
+access-list 104 permit ip 201.242.1.48 0.0.0.15 host 201.242.1.51
+access-list 104 permit ip 201.242.1.48 0.0.0.15 host 201.242.1.52
+
+access-list 104 deny ip any host 201.242.1.50
+access-list 104 deny ip any host 201.242.1.51
+access-list 104 deny ip any host 201.242.1.52
+do write
+
