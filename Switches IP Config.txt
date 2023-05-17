@@ -1,0 +1,29 @@
+
+
+en
+conf t
+hostname S1-153C-CLASSES
+
+banner motd "Welcome to 153 Campus Switch. Authorized Access Only"
+
+enable secret 2234
+
+line console 0
+password 2334
+login
+exit
+
+line vty 0 4
+password 2344
+login
+exit
+
+
+int vlan 1
+ip address 201.242.1.228 255.255.255.192
+no shutdown
+exit
+
+ip default-gateway 201.242.1.193
+
+do write
