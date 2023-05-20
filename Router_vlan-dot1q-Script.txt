@@ -1,3 +1,43 @@
+int g0/0
+no ip address
+no shutdown
+exit
+int g0/0.1
+encapsulation dot1Q 1
+ip address 201.242.1.192 255.255.255.192
+
+int g0/0.2
+encapsulation dot1Q 11
+ip address 201.229.2.1 255.255.255.192
+
+int g0/0.3
+encapsulation dot1Q 12
+ip address 201.229.2.65 255.255.255.192
+
+int g0/0.4
+encapsulation dot1Q 13
+ip address 201.229.2.129 255.255.255.192
+
+int g0/0.5
+encapsulation dot1Q 14
+ip address 201.229.2.193 255.255.255.192
+
+int g0/0.6
+encapsulation dot1Q 15
+ip address 201.229.3.1 255.255.255.192
+
+int g0/0.7
+encapsulation dot1Q 16
+ip address 201.229.3.65 255.255.255.192
+
+int g0/0.8
+encapsulation dot1Q 17
+ip address 201.229.3.129 255.255.255.224
+
+int g0/0.9
+encapsulation dot1Q 18
+ip address 201.229.3.193 255.255.255.224
+
 int g0/0.10
 encapsulation dot1Q 19
 ip address 201.229.3.225 255.255.255.224
