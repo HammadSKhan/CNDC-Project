@@ -4,7 +4,7 @@ no shutdown
 exit
 int g0/0.1
 encapsulation dot1Q 1
-ip address 201.242.1.192 255.255.255.192
+ip address 201.242.1.193 255.255.255.192
 
 int g0/0.2
 encapsulation dot1Q 11
