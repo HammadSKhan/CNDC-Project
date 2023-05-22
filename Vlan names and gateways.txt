@@ -1,0 +1,184 @@
+Vlan: 1 (N/A)
+Network IP:  201.242.1.192
+Subnet mask: 255.255.255.192
+Gateway IP:  201.242.1.193
+
+Vlan: 11 (cs Lab)
+Network IP:  201.229.2.0
+Subnet mask: 255.255.255.192
+Gateway IP:  201.229.2.1
+
+Vlan: 12 (lab 3)
+Network IP:  201.229.2.64
+Subnet mask: 255.255.255.192
+Gateway IP:  201.229.2.65
+
+Vlan: 13 (lab 4)
+Network IP:  201.229.2.128
+Subnet mask: 255.255.255.192
+Gateway IP:  201.229.2.129
+
+Vlan: 14 (lab 5)
+Network IP:  201.229.2.192
+Subnet mask: 255.255.255.192
+Gateway IP:  201.229.2.193
+
+Vlan: 15 (lab 6)
+Network IP:  201.229.3.0
+Subnet mask: 255.255.255.192
+Gateway IP:  201.229.3.1
+
+Vlan: 16 (smart Lab)
+Network IP:  201.229.3.64
+Subnet mask: 255.255.255.192
+Gateway IP:  201.229.3.65
+
+Vlan: 17 (faculty 99)
+Network IP:  201.229.3.128
+Subnet mask: 255.255.255.224
+Gateway IP:  201.229.3.129
+
+Vlan: 18 (faculty 100)
+Network IP:  201.229.3.192
+Subnet mask: 255.255.255.224
+Gateway IP:  201.229.3.193
+
+Vlan: 19 (class 100)
+Network IP:  201.229.3.224
+Subnet mask: 255.255.255.224
+Gateway IP:  201.229.3.225
+
+Vlan: 110 (classes 99)
+Network IP:  201.229.6.0
+Subnet mask: 255.255.255.224
+Gateway IP:  201.229.6.1
+
+Vlan: 111 (exam 99)
+Network IP:  201.229.6.32
+Subnet mask: 255.255.255.224
+Gateway IP:  201.229.6.33
+
+Vlan: 112 (faculty 154)
+Network IP:  201.229.6.64
+Subnet mask: 255.255.255.224
+Gateway IP:  201.229.6.65
+
+Vlan: 113 (mech 154)
+Network IP:  201.229.6.96
+Subnet mask: 255.255.255.224
+Gateway IP:  201.229.6.97
+
+Vlan: 114 (it 100)
+Network IP:  201.229.6.128
+Subnet mask: 255.255.255.224
+Gateway IP:  201.229.6.129
+
+Vlan: 115 (game Lab)
+Network IP:  201.229.6.144
+Subnet mask: 255.255.255.224
+Gateway IP:  201.229.6.145
+
+Vlan: 116 (academic 100)
+Network IP:  201.229.6.160
+Subnet mask: 255.255.255.224
+Gateway IP:  201.229.6.161
+
+Vlan: 117 (academic 99)
+Network IP:  201.229.6.176
+Subnet mask: 255.255.255.224
+Gateway IP:  201.229.6.177
+
+Vlan: 118 (classes 154)
+Network IP:  201.229.6.192
+Subnet mask: 255.255.255.224
+Gateway IP:  201.229.6.193
+
+Vlan: 119 (admission 153)
+Network IP:  201.229.6.208
+Subnet mask: 255.255.255.224
+Gateway IP:  201.229.6.209
+
+Vlan: 120 (classes 153)
+Network IP:  201.229.6.224
+Subnet mask: 255.255.255.224
+Gateway IP:  201.229.6.225
+
+Vlan: 121 (library 79)
+Network IP:  201.229.6.240 
+Subnet mask: 255.255.255.224
+Gateway IP:  201.229.6.241 
+
+Vlan: 122 (hr 79)
+Network IP:  201.242.1.0 
+Subnet mask: 255.255.255.224
+Gateway IP:  201.242.1.1 
+
+Vlan: 123 (admin 79)
+Network IP:  201.242.1.16
+Subnet mask: 255.255.255.224
+Gateway IP:  201.242.1.17
+
+Vlan: 124 (finance 79)
+Network IP:  201.242.1.32
+Subnet mask: 255.255.255.224
+Gateway IP:  201.242.1.33
+
+Vlan: 125 (faculty Media)
+Network IP:  201.242.1.48
+Subnet mask: 255.255.255.224
+Gateway IP:  201.242.1.49
+
+Vlan: 126 (admin 100)
+Network IP:  201.242.1.64 
+Subnet mask: 255.255.255.224
+Gateway IP:  201.242.1.65 
+
+Vlan: 127 (it 99)
+Network IP:  201.242.1.72 
+Subnet mask: 255.255.255.224
+Gateway IP:  201.242.1.73 
+
+Vlan: 128 (server 99)
+Network IP:  201.242.1.80 
+Subnet mask: 255.255.255.224
+Gateway IP:  201.242.1.81 
+
+Vlan: 129 (admin 99)
+Network IP:  201.242.1.88 
+Subnet mask: 255.255.255.224
+Gateway IP:  201.242.1.89 
+
+Vlan: 130 (procurement 79)
+Network IP:  201.242.1.96 
+Subnet mask: 255.255.255.224
+Gateway IP:  201.242.1.97 
+
+Vlan: 131 (edc 79)
+Network IP:  201.242.1.104 
+Subnet mask: 255.255.255.224
+Gateway IP:  201.242.1.105 
+
+Vlan: 132 (classes Media)
+Network IP:  201.242.1.112 
+Subnet mask: 255.255.255.224
+Gateway IP:  201.242.1.113 
+
+Vlan: 133 (academy Media)
+Network IP:  201.242.1.120 
+Subnet mask: 255.255.255.224
+Gateway IP:  201.242.1.121 
+
+Vlan: 134 (academic 154)
+Network IP:  201.242.1.128 
+Subnet mask: 255.255.255.224
+Gateway IP:  201.242.1.129 
+
+Vlan: 135 (admin 154)
+Network IP:  201.242.1.136
+Subnet mask: 255.255.255.224
+Gateway IP:  201.242.1.137 
+
+Vlan: 136 (academic 153)
+Network IP:  201.242.1.144
+Subnet mask: 255.255.255.224
+Gateway IP:  201.242.1.145 
